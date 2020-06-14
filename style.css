@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.menuSpan {
+	font-size: 30px;
+}
+
+.buttonRec {
+	background-color: green;
+	-moz-border-radius: 28px;
+	-webkit-border-radius: 28px;
+	border-radius: 28px;
+	border: none;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 22px;
+	padding: 18px 31px;
+	text-decoration: none;
+}
+
+.buttonRec:hover {
+	background-color: #5cbf2a;
+	transition: 0.2s;
+	border: none;
+}
+
+.buttonRec:active {
+	position: relative;
+	top: 1px;
+}
+
+.buttonPlay {
+	background-color: rgb(195, 0, 255);
+	-moz-border-radius: 28px;
+	-webkit-border-radius: 28px;
+	border-radius: 28px;
+	border:none;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 22px;
+	padding: 18px 31px;
+	text-decoration: none;
+}
+
+.buttonPlay:hover {
+	background-color: rgb(223, 108, 223);
+	transition: 0.2s;
+	border: none;
+}
+
+.buttonPlay:active {
+	position: relative;
+	top: 1px;
+}
+
+
+
+.sounds-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 45px;
+	flex-wrap:wrap;
+}
+
+.sound-signature {
+	width: 85px;
+	height: 85px;
+	border: 3px solid #383838;
+	border-radius: 50%;
+	line-height: 85px;
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: 300;
+	margin: 0 10px;
+	cursor: pointer;
+}
+
+.anim {
+	animation-name: anim1;
+	animation-duration: 0.2s;
+	/* animation-fill-mode: forwards; */
+	/* animation-iteration-count: infinite; */
+}
+
+@keyframes anim1 {
+	0% {
+		background: #fff;
+		transform: scale(1);
+	}
+
+	50% {
+		background: rgb(29, 135, 184);
+		transform: scale(1.2);
+	}
+
+	100% {
+		background: #fff;
+		transform: scale(1);
+	}
+}

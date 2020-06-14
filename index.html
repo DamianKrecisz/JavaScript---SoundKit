@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-12 text-center mt-5">
+                <h1 class="menuSpan">Keyboard soundKit</h1>
+            </div>
+        </div>
+
+        <div class="sounds-container">
+            <div class="sound-signature" data-num="boom">A</div>
+            <div class="sound-signature" data-num="clap">S</div>
+            <div class="sound-signature" data-num="hihat">D</div>
+            <div class="sound-signature" data-num="kick">F</div>
+            <div class="sound-signature" data-num="openhat">G</div><br>
+            
+            <div class="sound-signature" data-num="ride">H</div>
+            <div class="sound-signature" data-num="snare">J</div>
+            <div class="sound-signature" data-num="tink">K</div>
+            <div class="sound-signature" data-num="tom">L</div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-6 text-center channel ">
+                <span class="channel">Channel 1</span><br>
+                <button id="rec1" class="buttonRec">Rec</button>
+                <button id="play1" class="buttonPlay">Play</button>
+            </div>
+            <div class="col-6 text-center channel">
+                <span class="channel">Channel 2</span><br>
+                <button id="rec2" class="buttonRec">Rec</button>
+                <button id="play2" class="buttonPlay">Play</button>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+
+            <div class="col-6 text-center channel">
+                <span class="channel">Channel 3</span><br>
+                <button id="rec3" class="buttonRec">Rec</button>
+                <button id="play3" class="buttonPlay">Play</button>
+            </div>
+            <div class="col-6 text-center channel">
+                <span class="channel">Channel 4</span><br>
+                <button id="rec4" class="buttonRec">Rec</button>
+                <button id="play4" class="buttonPlay">Play</button>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-12 text-center mt-5">
+                <span class="channel">Play All</span><br>
+                <button id="playAll" class="buttonPlay mt-2">Play</button>
+            </div>
+        </div>
+        <audio src="sounds/boom.wav" id="boom"></audio>
+        <audio src="sounds/clap.wav" id="clap"></audio>
+        <audio src="sounds/hihat.wav" id="hihat"></audio>
+        <audio src="sounds/kick.wav" id="kick"></audio>
+        <audio src="sounds/openhat.wav" id="openhat"></audio>
+        <audio src="sounds/ride.wav" id="ride"> </audio>
+        <audio src="sounds/snare.wav" id="snare"></audio>
+        <audio src="sounds/tink.wav" id="tink"></audio>
+        <audio src="sounds/tom.wav" id="tom"></audio>
+
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
